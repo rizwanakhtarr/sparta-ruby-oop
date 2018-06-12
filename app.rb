@@ -1,3 +1,11 @@
+require_relative 'square.rb'
+
+puts "Area: #{square.calculate_area} Perimeter: #{square.calculate_perimeter}"
+
+
+square1 = Square.new 5
+puts square1.calculate_area
+
 # Squares
 side_length = 5
 
@@ -21,4 +29,3 @@ scaled_area = calculate_area side_length
 scaled_perimeter = calculate_perimeter side_length
 
 puts "Area: #{scaled_area} Perimeter: #{scaled_perimeter}"
-
